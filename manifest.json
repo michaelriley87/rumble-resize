@@ -3,7 +3,6 @@
     "name": "Rumble Resize",
     "description": "Make Rumble Theatre Mode fill the entire browser window.",
     "version": "1.0",
-    "permissions": ["activeTab", "scripting"],
     "content_scripts": [
       {
         "matches": ["https://rumble.com/*.html"],
