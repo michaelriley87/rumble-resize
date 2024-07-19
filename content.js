@@ -29,6 +29,9 @@ main {
 }
 .theater-mode .media-theater-container {
     max-height: 100vh;
+}
+.main-menu-expanded .page__footer, .main-menu-expanded main {
+    margin-left: 0rem;
 }`;
 
 // Function to toggle theater mode styles
