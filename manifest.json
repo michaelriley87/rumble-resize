@@ -2,10 +2,10 @@
     "manifest_version": 3,
     "name": "Rumble Resize",
     "description": "Make Rumble Theatre Mode fill the entire browser window.",
-    "version": "1.1",
+    "version": "1.11",
     "content_scripts": [
       {
-        "matches": ["https://rumble.com/*.html"],
+        "matches": ["https://rumble.com/*.html*"],
         "js": ["content.js"]
       }
     ],
