@@ -3,6 +3,11 @@
     "name": "Rumble Resize",
     "description": "Make Rumble Theatre Mode fill the entire browser window.",
     "version": "1.11",
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "rumble@resize"
+      }
+    },
     "content_scripts": [
       {
         "matches": ["https://rumble.com/*.html*"],
@@ -21,6 +26,6 @@
         "32": "images/icon-32.png",
         "48": "images/icon-48.png",
         "128": "images/icon-128.png"
-      }
     }
   }
+}
