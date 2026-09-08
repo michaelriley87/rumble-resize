@@ -1,0 +1,18 @@
+html[data-rumble-resize-active] main {
+    margin-left: 0;
+    margin-top: 0;
+}
+
+html[data-rumble-resize-active] .navs,
+html[data-rumble-resize-active] .header {
+    display: none;
+}
+
+html[data-rumble-resize-active] .media-theater-container {
+    max-height: 100vh;
+}
+
+html[data-rumble-resize-active] .main-menu-expanded .page__footer,
+html[data-rumble-resize-active] .main-menu-expanded main {
+    margin-left: 0;
+}
